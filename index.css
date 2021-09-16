@@ -1,0 +1,147 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 700 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  float: left;
+}
+
+.container .container {
+  width: 25.1046025104%;
+}
+
+.element {
+  float: left;
+  width: 100%;
+}
+
+.text {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 15.1992187499%;
+  height: 60px;
+  margin-top: -60px;
+  background-color: rgb(0, 123, 153);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(153, 235, 255);
+}
+
+._button:hover {
+  background-color: rgb(0, 82, 153);
+  color: rgb(153, 235, 255);
+}
+
+._button:active {
+  border: 3px solid rgb(153, 235, 255);
+}
+
+.container-1 {
+  width: 100%;
+  height: 210px;
+}
+
+.container-2 {
+  clear: both;
+  width: 99.5833333333%;
+  height: 426px;
+}
+
+.container-3 {
+  height: 374px;
+  margin: 34px 0 0 7.35879%;
+}
+
+.container-4 {
+  height: 369px;
+  margin: 39px 0 0 5.21967%;
+}
+
+.container-5 {
+  height: 367px;
+  margin: 41px 0 0 5.16083%;
+}
+
+.element-1 {
+  position: relative;
+  clear: both;
+  z-index: 1;
+  height: 60px;
+  background-color: rgb(0, 123, 153);
+}
+
+.element-2 {
+  height: 335px;
+  margin: 6px 0 0 -0.04688%;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-3 {
+  height: 335px;
+  margin: 1px 0 0 -0.0677100001%;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-4 {
+  height: 335px;
+  margin: -1px 0 0 -0.10938%;
+  background-color: rgb(222, 222, 222);
+}
+
+.text-1 {
+  min-height: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(153, 235, 255);
+  font-size: 1.875em;
+  color: rgb(0, 123, 153);
+}
+
+.text-2,
+.text-3,
+.text-4 {
+  clear: both;
+  margin-top: 1px;
+  padding: 5px;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.text-5 {
+  clear: both;
+  min-height: 150px;
+  padding: 50px;
+  background-color: rgb(153, 235, 255);
+  font-size: 1.875em;
+  color: rgb(0, 123, 153);
+}
+
+.container ._button-1 {
+  clear: both;
+  z-index: 2;
+}
+
+.container ._button-2 {
+  z-index: 3;
+  margin-left: 15.19922%;
+}
+
+.container ._button-3 {
+  z-index: 4;
+  margin-left: 30.39974%;
+}
+
+.container ._button-4 {
+  z-index: 5;
+  margin-left: 45.59896%;
+}

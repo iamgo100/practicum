@@ -2,4 +2,4 @@
 
 В данной лабораторной работе представлено выполненное задание: создание UML-диаграммы для ВКР.
 
-![Диаграмма прецедентов](https://github.com/iamgo100/practicum/blob/3fd27192abc964da751d51084ff0ab2522d53afd/lr3/precedent_diagram.png)
+![Диаграмма прецедентов](precedent_diagram.png)

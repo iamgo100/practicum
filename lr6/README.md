@@ -7,4 +7,4 @@
 * обновлять определенный существующий рассчет;
 * удалять определенный существующий рассчет.
 
-[Код микросервиса](https://github.com/iamgo100/practicum/blob/12e188b91a13fb21514e4630e2987ea85f5139e7/lr6/microservice.py)
+[Код микросервиса](https://github.com/iamgo100/practicum/blob/376eb373c3af3f6b4359a29b996f5adbcc3768d7/lr6/microservice.py)

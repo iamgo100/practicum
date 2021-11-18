@@ -1,0 +1,299 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 700 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  float: left;
+}
+
+.container .container {
+  width: 25.1046025104%;
+}
+
+.element {
+  float: left;
+  width: 100%;
+}
+
+.text {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+._button {
+  display: block;
+  position: relative;
+  width: 20%;
+  height: 60px;
+  margin-top: -60px;
+  background-color: rgb(0, 123, 153);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(153, 235, 255);
+}
+
+._button:hover {
+  background-color: rgb(0, 82, 153);
+  color: rgb(153, 235, 255);
+}
+
+._button:active {
+  border: 3px solid rgb(153, 235, 255);
+}
+
+.container-1 {
+  width: 100%;
+  height: 210px;
+}
+
+.container-2 {
+  clear: both;
+  width: 99.5833333333%;
+  height: 426px;
+}
+
+.container-3 {
+  height: 374px;
+  margin: 34px 0 0 7.35879%;
+}
+
+.container-4 {
+  height: 369px;
+  margin: 39px 0 0 5.21967%;
+}
+
+.container-5 {
+  height: 367px;
+  margin: 41px 0 0 5.16083%;
+}
+
+.element-1 {
+  position: relative;
+  clear: both;
+  z-index: 12;
+  height: 60px;
+  background-color: rgb(0, 123, 153);
+}
+
+.element-2 {
+  height: 335px;
+  margin: 6px 0 0 -0.04688%;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-3 {
+  height: 335px;
+  margin: 1px 0 0 -0.0677100001%;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-4 {
+  height: 335px;
+  margin: -1px 0 0 -0.10938%;
+  background-color: rgb(222, 222, 222);
+}
+
+.text-1 {
+  min-height: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(153, 235, 255);
+  font-size: 1.875em;
+  color: rgb(0, 123, 153);
+}
+
+.text-2,
+.text-3,
+.text-4 {
+  clear: both;
+  margin-top: 1px;
+  padding: 5px;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.text-5 {
+  clear: both;
+  min-height: 150px;
+  padding: 50px;
+  background-color: rgb(153, 235, 255);
+  font-size: 1.875em;
+  color: rgb(0, 123, 153);
+}
+
+.container ._button-1 {
+  float: left;
+  clear: both;
+  z-index: 13;
+  margin-left: 10%;
+}
+
+.container ._button-2 {
+  float: left;
+  z-index: 14;
+  margin-left: 30%;
+}
+
+.container ._button-3 {
+  float: right;
+  z-index: 15;
+  margin-right: 30%;
+}
+
+.container ._button-4 {
+  float: right;
+  clear: both;
+  z-index: 16;
+  margin-right: 10%;
+}
+
+@media(max-width: 800px) {
+  .container {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .container {
+    float: none;
+    width: 60%;
+    height: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container ._button {
+    position: relative;
+  }
+
+  .container .element-1 {
+    position: relative;
+    z-index: 12;
+  }
+
+  .container .element-3 {
+    height: 300px;
+    margin-left: -0.06185%;
+  }
+
+  .container .element-2,
+  .container .element-4 {
+    height: 300px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .container .text-2 {
+    margin-top: 7px;
+  }
+
+  .container .text-4 {
+    margin-top: 0;
+  }
+
+  .container-2 {
+    clear: none;
+    width: 100%;
+    height: 1124px;
+  }
+
+  .text-5 {
+    float: none;
+    clear: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container ._button-1 {
+    z-index: 13;
+    margin-left: 5%;
+  }
+
+  .container ._button-2 {
+    z-index: 14;
+    margin-left: 28%;
+  }
+
+  .container ._button-3 {
+    z-index: 15;
+    margin-right: 28%;
+  }
+
+  .container ._button-4 {
+    z-index: 16;
+    margin-right: 5%;
+  }
+}
+
+@media(max-width: 400px) {
+  body {
+    font-size: 1em;
+  }
+
+  .container .container {
+    width: 85%;
+  }
+
+  .container ._button {
+    position: relative;
+    font-size: 0.875em;
+  }
+
+  .container .element-1 {
+    position: relative;
+    z-index: 12;
+  }
+
+  .container .element-2,
+  .container .element-3,
+  .container .element-4 {
+    height: 200px;
+  }
+
+  .container .text-1 {
+    min-height: 100px;
+    font-size: 1.5em;
+  }
+
+  .container-1 {
+    min-width: 300px;
+    height: 192px;
+  }
+
+  .container-2 {
+    min-width: 300px;
+    height: 816px;
+  }
+
+  .text-5 {
+    min-width: 300px;
+    min-height: 100px;
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+
+  .container ._button-1 {
+    z-index: 13;
+    margin-left: 0;
+  }
+
+  .container ._button-2 {
+    z-index: 14;
+    margin-left: 27%;
+  }
+
+  .container ._button-3 {
+    z-index: 15;
+    margin-right: 27%;
+  }
+
+  .container ._button-4 {
+    z-index: 16;
+    margin-right: 0;
+  }
+}

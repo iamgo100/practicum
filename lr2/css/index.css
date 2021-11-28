@@ -1,299 +1,470 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: 700 1em/1.38 Helvetica;
-  color: rgb(0, 0, 0);
-}
-
-.container {
-  float: left;
-}
-
-.container .container {
-  width: 25.1046025104%;
+  font: 300 0.938em/1.38 'Open Sans';
+  color: rgb(255, 255, 255);
 }
 
 .element {
-  float: left;
-  width: 100%;
+  width: 100px;
+  height: 100px;
+  margin: 25px auto 0;
+  background-color: rgba(222, 222, 222, 0);
 }
 
 .text {
-  float: left;
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 ._button {
   display: block;
-  position: relative;
+  float: right;
   width: 20%;
-  height: 60px;
-  margin-top: -60px;
-  background-color: rgb(0, 123, 153);
-  font-size: 1em;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  font-size: 0.933em;
+  font-weight: 700;
   text-align: center;
-  color: rgb(153, 235, 255);
+  color: rgb(0, 0, 0);
 }
 
-._button:hover {
-  background-color: rgb(0, 82, 153);
-  color: rgb(153, 235, 255);
-}
-
-._button:active {
-  border: 3px solid rgb(153, 235, 255);
-}
-
-.container-1 {
-  width: 100%;
-  height: 210px;
-}
-
-.container-2 {
-  clear: both;
-  width: 99.5833333333%;
-  height: 426px;
-}
-
-.container-3 {
-  height: 374px;
-  margin: 34px 0 0 7.35879%;
-}
-
-.container-4 {
-  height: 369px;
-  margin: 39px 0 0 5.21967%;
-}
-
-.container-5 {
-  height: 367px;
-  margin: 41px 0 0 5.16083%;
-}
-
-.element-1 {
-  position: relative;
-  clear: both;
-  z-index: 12;
-  height: 60px;
-  background-color: rgb(0, 123, 153);
-}
-
-.element-2 {
-  height: 335px;
-  margin: 6px 0 0 -0.04688%;
-  background-color: rgb(222, 222, 222);
-}
-
-.element-3 {
-  height: 335px;
-  margin: 1px 0 0 -0.0677100001%;
-  background-color: rgb(222, 222, 222);
-}
-
-.element-4 {
-  height: 335px;
-  margin: -1px 0 0 -0.10938%;
-  background-color: rgb(222, 222, 222);
-}
-
-.text-1 {
-  min-height: 150px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: rgb(153, 235, 255);
-  font-size: 1.875em;
-  color: rgb(0, 123, 153);
-}
-
-.text-2,
-.text-3,
-.text-4 {
-  clear: both;
-  margin-top: 1px;
-  padding: 5px;
-  font-size: 1em;
+._input {
+  display: block;
+  float: left;
+  width: 48.5119047619%;
+  height: 50px;
+  margin-top: 11px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  font-size: 0.867em;
   font-weight: 400;
   color: rgb(0, 0, 0);
 }
 
-.text-5 {
-  clear: both;
-  min-height: 150px;
-  padding: 50px;
-  background-color: rgb(153, 235, 255);
-  font-size: 1.875em;
-  color: rgb(0, 123, 153);
+._textarea {
+  display: block;
+  width: 100%;
+  height: 274px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  font-size: 0.933em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  resize: none;
 }
 
-.container ._button-1 {
+.container-1 {
   float: left;
-  clear: both;
-  z-index: 13;
+  width: 80%;
+  min-height: 600px;
   margin-left: 10%;
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: auto 120%;
+  background-position: center center;
 }
 
-.container ._button-2 {
+.container-2 {
   float: left;
-  z-index: 14;
-  margin-left: 30%;
+  width: 70%;
+  margin-left: 15%;
+  padding-bottom: 10px;
 }
 
-.container ._button-3 {
-  float: right;
-  z-index: 15;
-  margin-right: 30%;
+.container-3 {
+  width: 100%;
+  margin: 0 auto;
 }
 
-.container ._button-4 {
-  float: right;
-  clear: both;
-  z-index: 16;
-  margin-right: 10%;
+.container-4 {
+  position: relative;
+  float: left;
+  width: 30.0595238095%;
+  padding-bottom: 20px;
 }
 
-@media(max-width: 800px) {
-  .container {
-    float: none;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.container-5,
+.container-6 {
+  float: left;
+  width: 30.0595238095%;
+  margin-left: 2.9971199999%;
+  padding-bottom: 20px;
+}
 
-  .container .container {
-    float: none;
-    width: 60%;
-    height: auto;
-    margin-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
+.container-7 {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.container-8 {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.element-1 {
+  background-image: url('../images/adress.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-2 {
+  background-image: url('../images/phone.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-3 {
+  background-image: url('../images/email.png'), url('../images/adress.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: center center, center center;
+  background-attachment: scroll, scroll;
+}
+
+.text-1 {
+  margin-top: 50px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.text-2 {
+  margin-top: 1px;
+  font-size: 1em;
+}
+
+.text-3,
+.text-4 {
+  margin-top: 29px;
+  font-size: 1.333em;
+}
+
+.text-5 {
+  margin-top: 32px;
+  font-size: 1.2em;
+}
+
+.container ._input-2 {
+  margin-left: 2.9738699999%;
+}
+
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+@media(max-width: 1024px) {
+  body {
+    font-size: 0.813em;
   }
 
   .container ._button {
-    position: relative;
+    font-size: 1.077em;
   }
 
-  .container .element-1 {
-    position: relative;
-    z-index: 12;
-  }
-
-  .container .element-3 {
-    height: 300px;
-    margin-left: -0.06185%;
-  }
-
-  .container .element-2,
-  .container .element-4 {
-    height: 300px;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  .container .text-2 {
-    margin-top: 7px;
-  }
-
-  .container .text-4 {
-    margin-top: 0;
-  }
-
-  .container-2 {
-    clear: none;
-    width: 100%;
-    height: 1124px;
-  }
-
-  .text-5 {
-    float: none;
-    clear: none;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .container ._button-1 {
-    z-index: 13;
-    margin-left: 5%;
-  }
-
-  .container ._button-2 {
-    z-index: 14;
-    margin-left: 28%;
-  }
-
-  .container ._button-3 {
-    z-index: 15;
-    margin-right: 28%;
-  }
-
-  .container ._button-4 {
-    z-index: 16;
-    margin-right: 5%;
-  }
-}
-
-@media(max-width: 400px) {
-  body {
+  .container ._input {
     font-size: 1em;
   }
 
-  .container .container {
-    width: 85%;
+  .container ._textarea {
+    font-size: 1.077em;
   }
 
-  .container ._button {
-    position: relative;
-    font-size: 0.875em;
+  .container .container-2 {
+    margin-left: 14.99962%;
   }
 
-  .container .element-1 {
-    position: relative;
-    z-index: 12;
-  }
-
-  .container .element-2,
-  .container .element-3,
-  .container .element-4 {
-    height: 200px;
+  .container .container-5,
+  .container .container-6 {
+    margin-left: 2.99191%;
   }
 
   .container .text-1 {
-    min-height: 100px;
-    font-size: 1.5em;
+    font-size: 2.154em;
+  }
+
+  .container .text-2 {
+    font-size: 13px;
+  }
+
+  .container .text-3,
+  .container .text-4 {
+    font-size: 1.385em;
+  }
+
+  .container .text-5 {
+    font-size: 1.231em;
   }
 
   .container-1 {
-    min-width: 300px;
-    height: 192px;
+    margin-left: 9.99756%;
   }
 
-  .container-2 {
-    min-width: 300px;
-    height: 816px;
+  .container ._input-2 {
+    margin-left: 2.97011%;
+  }
+}
+
+@media(max-width: 910px) {
+  .container .element {
+    width: 90px;
+    height: 90px;
   }
 
-  .text-5 {
-    min-width: 300px;
-    min-height: 100px;
+  .container ._input {
+    height: 45px;
+    font-size: 0.923em;
+  }
+
+  .container ._textarea {
+    height: 250px;
+    font-size: 1em;
+  }
+
+  .container .container-2 {
+    margin-left: 14.99828%;
+  }
+
+  .container .container-5,
+  .container .container-6 {
+    margin-left: 2.9925799999%;
+  }
+
+  .container .text-3,
+  .container .text-4 {
+    font-size: 1.231em;
+  }
+
+  .container .text-5 {
+    font-size: 1.077em;
+  }
+
+  .container-1 {
+    margin-left: 9.99828%;
+  }
+
+  .container ._input-2 {
+    margin-left: 2.97112%;
+  }
+}
+
+@media(max-width: 750px) {
+  body {
+    font-size: 0.75em;
+  }
+
+  .container .element {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    margin-right: 0;
+  }
+
+  .container ._button {
+    height: 30px;
+    font-size: 1em;
+  }
+
+  .container ._input {
+    width: 38%;
+    height: 40px;
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
-  .container ._button-1 {
-    z-index: 13;
+  .container ._textarea {
+    width: 80%;
+    height: 200px;
+    font-size: 12px;
+  }
+
+  .container .container-2 {
+    float: none;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .container-4 {
+    float: none;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+
+  .container .container-5,
+  .container .container-6 {
+    float: none;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .container-8 {
+    width: 80%;
+  }
+
+  .container .element-1 {
+    margin-left: 9.99517%;
+  }
+
+  .container .element-2,
+  .container .element-3 {
+    margin-left: 9.99283%;
+  }
+
+  .container .text-1 {
+    margin-top: 40px;
+    font-size: 2.167em;
+  }
+
+  .container .text-2 {
+    width: 80%;
+    margin-top: 0;
+    font-size: 12px;
+  }
+
+  .container .text-3 {
+    float: right;
+    width: 50%;
+    margin-top: 30px;
+    margin-right: 9.99517%;
+    margin-left: 0;
+    font-size: 1.333em;
+  }
+
+  .container .text-4 {
+    float: right;
+    width: 50%;
+    margin-top: 30px;
+    margin-right: 9.99283%;
+    margin-left: 0;
+    font-size: 1.333em;
+  }
+
+  .container .text-5 {
+    float: right;
+    width: 50%;
+    margin-top: 30px;
+    margin-right: 9.99283%;
+    margin-left: 0;
+    font-size: 1.25em;
+  }
+
+  .container-1 {
+    margin-left: 10%;
+    background-attachment: fixed;
+  }
+
+  .container ._input-1 {
+    margin-left: 10%;
+  }
+
+  .container ._input-2 {
+    float: right;
+    margin-right: 10%;
     margin-left: 0;
   }
+}
 
-  .container ._button-2 {
-    z-index: 14;
-    margin-left: 27%;
+@media(max-width: 510px) {
+  body {
+    font-size: 0.563em;
   }
 
-  .container ._button-3 {
-    z-index: 15;
-    margin-right: 27%;
+  .container .element {
+    width: 60px;
+    height: 60px;
   }
 
-  .container ._button-4 {
-    z-index: 16;
-    margin-right: 0;
+  .container ._button {
+    height: 25px;
+    font-size: 1.111em;
+  }
+
+  .container ._input {
+    float: none;
+    width: 80%;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.111em;
+  }
+
+  .container ._textarea {
+    height: 150px;
+    font-size: 1.111em;
+  }
+
+  .container .element-1 {
+    margin-left: 9.98641%;
+  }
+
+  .container .element-2 {
+    margin-left: 10%;
+  }
+
+  .container .element-3 {
+    margin-left: 9.98884%;
+  }
+
+  .container .text-1 {
+    font-size: 2.222em;
+  }
+
+  .container .text-2 {
+    font-size: 9px;
+  }
+
+  .container .text-3 {
+    margin-right: 9.98641%;
+    font-size: 12px;
+  }
+
+  .container .text-4 {
+    margin-right: 10%;
+    font-size: 12px;
+  }
+
+  .container .text-5 {
+    margin-right: 9.98884%;
+    font-size: 1.222em;
   }
 }
